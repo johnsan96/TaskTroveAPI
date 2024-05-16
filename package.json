@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "set PORT=0&&jest --watchAll --verbose"
   },
   "author": "",
   "license": "ISC",
