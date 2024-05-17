@@ -13,4 +13,17 @@ describe('GET /api/profile', () => {
     });
   });
 
+  //failed test example
+
+  describe('GET /api/profile', () => {
+    it('responds with JSON profile data', async () => {
+        const response = await request(app).get('/api/profile');
+        expect(response.statusCode).toBe(200);
+        expect(response.body).toEqual({
+            name: "Jane Doe", // Hier wird der Name geändert, sodass der Test fehlschlägt
+            age: 30,
+            profession: "Software Developer"
+        });
+    });
+});
   
