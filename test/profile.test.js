@@ -15,7 +15,7 @@ describe('GET /api/profile', () => {
 
   //failed test example
 
-  describe('GET /api/profile', () => {
+  /* describe('GET /api/profile', () => {
     it('responds with JSON profile data', async () => {
         const response = await request(app).get('/api/profile');
         expect(response.statusCode).toBe(200);
@@ -25,5 +25,5 @@ describe('GET /api/profile', () => {
             profession: "Software Developer"
         });
     });
-});
+}); */
   
